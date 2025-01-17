@@ -1,0 +1,82 @@
+{
+  "chart": {
+    "title": "Literacy rate vs. GDP per capita",
+    "subtitle": "Share of people aged 15+ who can both read and write with understanding a short simple statement about their everyday life. GDP per capita is adjusted for inflation and differences in the cost of living between countries.",
+    "note": "GDP per capita is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices.",
+    "citation": "UNESCO Institute for Statistics (2024); Our World in Data; World Bank (2023)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/literacy-rate-vs-gdp-per-capita?v=1&csvType=full&useColumnShortNames=false"
+  },
+  "columns": {
+    "Adult literacy rate, population 15+ years, both sexes (%), LR.AG15T99": {
+      "titleShort": "Adult literacy rate",
+      "titleLong": "Adult literacy rate",
+      "descriptionKey": [],
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "1970-2023",
+      "type": "Numeric",
+      "owidVariableId": 947102,
+      "shortName": "adult_literacy_rate__population_15plus_years__both_sexes__pct__lr_ag15t99",
+      "lastUpdated": "2024-06-25",
+      "nextUpdate": "2025-06-25",
+      "citationShort": "UNESCO Institute for Statistics (2024) – processed by Our World in Data",
+      "citationLong": "UNESCO Institute for Statistics (2024) – processed by Our World in Data. “Adult literacy rate” [dataset]. UNESCO Institute for Statistics, “UNESCO Institute for Statistics (UIS) - Education” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/947102.metadata.json"
+    },
+    "GDP per capita, PPP (constant 2017 international $)": {
+      "titleShort": "GDP per capita",
+      "titleLong": "GDP per capita - World Bank – In constant 2017 international $",
+      "descriptionShort": "This data is adjusted for inflation and for differences in the cost of living between countries.",
+      "descriptionKey": [
+        "This GDP per capita indicator provides information on economic growth and income levels from 1990.",
+        "This data is adjusted for inflation and for differences in the cost of living between countries.",
+        "This data is expressed in international-$ at 2017 prices.",
+        "For GDP per capita estimates in the very long run, see the [Maddison Project Database's indicator](https://ourworldindata.org/grapher/gdp-per-capita-maddison)."
+      ],
+      "shortUnit": "$",
+      "unit": "international-$ in 2017 prices",
+      "timespan": "1990-2022",
+      "type": "Numeric",
+      "owidVariableId": 905490,
+      "shortName": "ny_gdp_pcap_pp_kd",
+      "lastUpdated": "2024-05-20",
+      "nextUpdate": "2025-05-20",
+      "citationShort": "World Bank (2023) – with minor processing by Our World in Data",
+      "citationLong": "World Bank (2023) – with minor processing by Our World in Data. “GDP per capita – World Bank – In constant 2017 international $” [dataset]. World Bank, “World Bank World Development Indicators” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/905490.metadata.json"
+    },
+    "Population (historical)": {
+      "titleShort": "Population (historical)",
+      "titleLong": "Population (historical)",
+      "descriptionShort": "Population by country, available from 10,000 BCE to 2023, based on data and estimates from different sources.",
+      "descriptionKey": [],
+      "descriptionProcessing": "The population data is constructed by combining data from multiple sources:\n\n- 10,000 BCE - 1799: Historical estimates by HYDE (v3.3).\n\n- 1800 - 1949: Historical estimates by Gapminder (v7).\n\n- 1950-2023: Population records by the UN World Population Prospects (2024 revision).",
+      "shortUnit": "",
+      "unit": "people",
+      "timespan": "-10000-2023",
+      "type": "Integer",
+      "owidVariableId": 953903,
+      "shortName": "population_historical",
+      "lastUpdated": "2024-07-15",
+      "nextUpdate": "2026-07-15",
+      "citationShort": "HYDE (2023); Gapminder (2022); UN WPP (2024) – with major processing by Our World in Data",
+      "citationLong": "HYDE (2023); Gapminder (2022); UN WPP (2024) – with major processing by Our World in Data. “Population (historical)” [dataset]. PBL Netherlands Environmental Assessment Agency, “History Database of the Global Environment 3.3”; Gapminder, “Population v7”; United Nations, “World Population Prospects”; Gapminder, “Systema Globalis” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/953903.metadata.json"
+    },
+    "World regions according to OWID": {
+      "titleShort": "World regions according to OWID",
+      "titleLong": "World regions according to OWID",
+      "descriptionKey": [],
+      "unit": "",
+      "timespan": "2023-2023",
+      "type": "String",
+      "owidVariableId": 900801,
+      "shortName": "owid_region",
+      "lastUpdated": "2023-01-01",
+      "citationShort": "Our World in Data – processed by Our World in Data",
+      "citationLong": "Our World in Data – processed by Our World in Data. “World regions according to OWID” [dataset]. Our World in Data, “Regions” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/900801.metadata.json"
+    }
+  },
+  "dateDownloaded": "2024-11-16"
+}
